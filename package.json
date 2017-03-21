@@ -1,0 +1,25 @@
+{
+  "name": "gcs-downloader",
+  "version": "1.0.0",
+  "description": "Download all files from a Google Cloud Storage Bucket",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexarena/node-gcs-downloader.git"
+  },
+  "author": "Alex Arena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexarena/node-gcs-downloader/issues"
+  },
+  "homepage": "https://github.com/alexarena/node-gcs-downloader#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^0.8.0",
+    "async": "^2.1.5",
+    "dotenv": "^4.0.0"
+  }
+}
